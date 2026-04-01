@@ -12,6 +12,6 @@ jobs:
           spira_url: 'https://dev-eu.spiraservice.net//121/TestSet/1279.aspx'
           spira_username: 'RobinEllacott'
           spira_api_key: ${{ secrets.SPIRA_API_KEY }}
-          spira_automation_host: RapiseGHAHost
+          spira_automation_host: RapiseDemoHost
           rapise_params: |
             g_browserLibrary=Selenium - ChromeHeadless
