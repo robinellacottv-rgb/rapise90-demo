@@ -7,11 +7,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: Inflectra/rapiselauncher-node-action@v2
+      - uses: Inflectra/rapiselauncher-node-action@v2.0.4
         with:
           spira_url: 'https://dev-eu.spiraservice.net//121/TestSet/1279.aspx'
           spira_username: 'RobinEllacott'
           spira_api_key: ${{ secrets.SPIRA_API_KEY }}
-          spira_automation_host: RobinAutomationHost
+          spira_automation_host: RapiseGHAHost
           rapise_params: |
             g_browserLibrary=Selenium - ChromeHeadless
