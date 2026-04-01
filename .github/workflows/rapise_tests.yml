@@ -14,4 +14,4 @@ jobs:
           spira_api_key: ${{ secrets.SPIRA_API_KEY }}
           spira_automation_host: RapiseDemoHost
           rapise_params: |
-            g_browserLibrary=Selenium - ChromeHeadless
+            g_browserLibrary=Selenium - Chrome Headless
