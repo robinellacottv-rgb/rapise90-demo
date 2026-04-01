@@ -7,7 +7,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: Inflectra/rapiselauncher-node-action@v2.0.4
+      - uses: Inflectra/rapiselauncher-node-action@v2.0.5
         with:
           spira_url: 'https://dev-eu.spiraservice.net//121/TestSet/1279.aspx'
           spira_username: 'RobinEllacott'
